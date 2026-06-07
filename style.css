@@ -1,0 +1,91 @@
+:root {
+    --color-bosque: #44562F;
+    --color-esparrago: #83934D;
+    --color-claro-pino: #B8C88D;
+    --fondo-blanco: #FAFAFA;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fondo-blanco);
+    color: var(--color-bosque);
+}
+
+.hero {
+    background-color: var(--color-claro-pino);
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 0 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-esparrago);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--color-bosque);
+}
+
+.descripcion {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.galeria {
+    background-color: var(--color-claro-pino);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.grid-galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.captura {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--color-bosque);
+    font-weight: bold;
+}
+
+.descarga {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--color-bosque);
+    color: var(--color-claro-pino);
+}
+
+.copyright {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
